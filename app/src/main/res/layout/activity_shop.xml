@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivity">
+
+    <TextView
+        android:id="@+id/tv_shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="16dp"
+        tools:text="Apple Store"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:text="ADDRESS:"/>
+
+            <TextView
+                android:id="@+id/tv_shop_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:padding="16dp"
+                android:fontFamily="monospace"
+                tools:text="SOUTH, TN Mukerjee Rd, near Dankuni Flyover, Subhas Pally, Dankuni, West Bengal 712311"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:text="OFFERS:"/>
+
+            <TextView
+                android:id="@+id/tv_shop_offer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:padding="16dp"
+                android:fontFamily="monospace"
+                tools:text="Offer 1:30% Off on Mi Note 10 for one month.\n\nOffer 2:10% Off on any product if you pay via HDFC bank Credit card."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
